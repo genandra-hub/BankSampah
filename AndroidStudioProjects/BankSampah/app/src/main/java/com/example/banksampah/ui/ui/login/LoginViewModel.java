@@ -9,7 +9,7 @@ import android.util.Patterns;
 import com.example.banksampah.ui.data.LoginRepository;
 import com.example.banksampah.ui.data.Result;
 import com.example.banksampah.ui.data.model.LoggedInUser;
-import com.example.banksampah.ui.R;
+import com.example.banksampah.R;
 
 public class LoginViewModel extends ViewModel {
 
