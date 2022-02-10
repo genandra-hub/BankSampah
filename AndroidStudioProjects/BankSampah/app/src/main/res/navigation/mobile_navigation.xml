@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_member">
+
+    <fragment
+        android:id="@+id/nav_member"
+        android:name="com.example.banksampah.ui.member.MemberFragment"
+        android:label="@string/menu_member"
+        tools:layout="@layout/fragment_member" />
+
+    <fragment
+        android:id="@+id/nav_sampah"
+        android:name="com.example.banksampah.ui.sampah.SampahFragment"
+        android:label="@string/menu_sampah"
+        tools:layout="@layout/fragment_sampah" />
+
+    <fragment
+        android:id="@+id/nav_transaksi"
+        android:name="com.example.banksampah.ui.transaksi.TransaksiFragment"
+        android:label="@string/menu_transaksi"
+        tools:layout="@layout/fragment_transaksi" />
+    <fragment
+        android:id="@+id/nav_laporan"
+        android:name="com.example.banksampah.ui.laporan.LaporanFragment"
+        android:label="@string/menu_laporan"
+        tools:layout="@layout/fragment_laporan" />
+</navigation>
