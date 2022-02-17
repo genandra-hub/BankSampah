@@ -73,7 +73,7 @@
             android:inputType="textPassword" />
 
         <TextView
-            android:id="@+id/txtView5"
+            android:id="@+id/txtLupaPassword"
             android:textStyle="bold"
             android:layout_gravity="right"
             android:layout_width="wrap_content"
