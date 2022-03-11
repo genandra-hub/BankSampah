@@ -23,7 +23,7 @@ public class SampahFragment extends Fragment {
         sampahViewModel =
                 new ViewModelProvider(this).get(SampahViewModel.class);
         View root = inflater.inflate(R.layout.fragment_sampah, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
+        final TextView textView = root.findViewById(R.id.namaSampah);
         sampahViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
